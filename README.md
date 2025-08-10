@@ -20,8 +20,7 @@ This service combines the functionality of the **Product** and **Segment** servi
 
    ```bash
    git clone https://github.com/your-org/product-service.git
-   cd product-service
-````
+   cd product-service```
 
 2. **Configure environment variables:**
 
