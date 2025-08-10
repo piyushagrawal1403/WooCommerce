@@ -62,7 +62,7 @@ Copy `.env.example` to `.env` and fill in the required values:
 
 The service periodically ingests product data from an external WooCommerce API and stores it into the local PostgreSQL database.
 
-* Fetches product data via scheduled tasks every 30 min.
+* Fetches product data via scheduled tasks every 7 days.
 * Parses and validates product information.
 * Converts product price strings into doubles, handling empty or missing values gracefully.
 * Inserts or updates product records in the database.

@@ -40,7 +40,7 @@ const handleSubmit = async(e) => {
         .map(line => line.trim())
         .filter(line => line.length)
         .join(' and ');
-      const res = await api.post('/segments/evaluate')
+      const res = await api.post('/segments/evaluate', {"condition": formattedText})
       onResult && onResult(res.data)
     } catch (err) {
       setServerError(err.message)

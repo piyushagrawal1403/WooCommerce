@@ -14,7 +14,7 @@ public class SchedulerConfig {
         this.service = service;
     }
 
-    @Scheduled(fixedRate = 1800000)
+    @Scheduled(fixedRate = 6.048e+8)
     public void scheduledIngest() {
         service.fetchProducts();
     }
