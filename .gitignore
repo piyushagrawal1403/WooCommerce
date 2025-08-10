@@ -9,9 +9,9 @@ yarn.lock
 pnpm-lock.yaml
 
 # Build output
-/frontend/dist/
-product-service/target
-/frontend/dist-ssr/
+frontend/dist/
+backend/target
+frontend/dist-ssr/
 *.local
 
 # Editor files
