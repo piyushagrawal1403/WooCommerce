@@ -15,3 +15,9 @@ woocommerce:
   url: ${WOOCOMMERCE_URL}
   consumerKey: ${CONSUMER_KEY}
   consumerSecret: ${CONSUMER_SECRET}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
