@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import ProductGrid from '../components/ProductGrid'
 import SegmentEditor from '../components/SegmentEditor'
 import useFetchProducts from '../hooks/useFetchProducts'
+import Loader from '../components/Loader'
 
 export default function Home() {
   const { products, loading, error, refresh } = useFetchProducts()
@@ -20,7 +21,7 @@ export default function Home() {
             </div>
           </div>
 
-          {loading && <div className="p-4 bg-white rounded shadow">Loading...</div>}
+          {loading &&  <Loader fullScreen />}
           {error && <div className="p-4 bg-red-50 text-red-700 rounded">{error}</div>}
 
           <ProductGrid products={products} />
