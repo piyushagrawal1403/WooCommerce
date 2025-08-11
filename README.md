@@ -98,6 +98,7 @@ Here are the live deployments of the service and related components:
 | **Swagger UI**          | [https://woocommerce-6wow.onrender.com/swagger-ui/index.html](https://woocommerce-6wow.onrender.com/swagger-ui/index.html) |
 | **Swagger JSON**        | [https://woocommerce-6wow.onrender.com/v3/api-docs](https://woocommerce-6wow.onrender.com/v3/api-docs)                     |
 
+### Note: The service goes down in render after a while of inactivity so first pleasse run the swagger end point once it comes up run the frontend 
 ---
 
 ## Swagger API Documentation
