@@ -11,6 +11,7 @@ This service combines the functionality of the **Product** and **Segment** servi
 - [Ingestion Logic](#ingestion-logic)  
 - [Sample Input for Segmentation](#sample-input-for-segmentation)  
 - [Live Demo Links](#live-demo-links)
+- [Swagger API Documentation](#swagger-api-documentation)
 
 ---
 
@@ -85,6 +86,20 @@ Example POST request to `/segments/evaluate` with JSON body:
 
 Response: List of products matching the condition.
 
+---
+
+## Live Demo Links
+
+Here are the live deployments of the service and related components:
+
+| Service                 | URL                                                                                                                                |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontend**            | [https://woocommerce-frontend.onrender.com/](https://woocommerce-frontend.onrender.com/)                                                   |                                            |
+| **Swagger UI**          | [https://woocommerce-6wow.onrender.com/swagger-ui/index.html](https://woocommerce-6wow.onrender.com/swagger-ui/index.html) |
+| **Swagger JSON**        | [https://woocommerce-6wow.onrender.com/v3/api-docs](https://woocommerce-6wow.onrender.com/v3/api-docs)                     |
+
+---
+
 ## Swagger API Documentation
 
 API documentation is available via Swagger UI.
@@ -98,4 +113,3 @@ API documentation is available via Swagger UI.
 This allows easy exploration and testing of all REST endpoints exposed by the service.
 
 ---
-
